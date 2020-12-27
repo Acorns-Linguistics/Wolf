@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Wolf_lib/AudioVisualFonts.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/jhall.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/pd4ml.jar"/>
+	<classpathentry kind="lib" path="Wolf_lib/ss_css2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

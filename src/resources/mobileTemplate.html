@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0016)http://localhost -->
+				
+ <html>
+ <head>
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>TTTT</title>
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <style type = "text/css">
+		FONTS	
+	</style>
+	
+    <script type="text/javascript" id="xmlScript">
+		XML
+		JSON
+	</script>
+		
+	<link rel="stylesheet" type="text/css" href="HHHH/Assets/style.css" />	
+    <script type="text/javascript" src="HHHH/Assets/acorns.js"></script>
+    <script type="text/javascript" src="HHHH/Assets/styleDictionary.js"></script>
+</head>	
+
+<body onload="parse();" onunload="wolf = null;" id="body" style="max-height:300px">
+	<header id="head">
+		<button class="auth" id="authButton"></button>
+		<button class="copy" id="copyButton"></button>
+		<button class="prev" id="prevButton"></button>
+		<button class="next" id="nextButton"></button>
+		<button class="reload" id="reloadButton"></button>
+
+		<span class="find">
+		Search: <input id="searchText" type="text" placeholder="Search Criteria">
+		<span class="searchMenu">
+			<select id="searchSelect">
+				<option value="word">Word</option>
+				<option value="category">Category</option>
+				<option value="ontology">Ontology</option>
+			</select> 
+		</span>
+		</span>
+		<button id="searchButton"></button>
+
+		<span class="template">
+		Template:
+		<span class="tmplateMenu">
+			<select id="templateSelect">
+			</select> 
+		</span>
+		</span>
+		
+	</header>
+
+	<article class="push">
+		<div id="dictionaryDisplay"></div>
+	</article>
+
+	<article id="copAutPopup">
+		<div class="hidden" id="authorArea"></div>
+		<div class="hidden" id="copyrightArea"></div>
+		<audio class="hidden" id="audio" controls src="" >
+			Your browser does not support the audio element.
+		</audio>
+		<video class="hidden" id="video"  controls >
+			<source src="" type="">
+			Your browser does not support the audio element.
+		</video>
+	</article>
+
+	<article id="phonPopup">
+		<table>
+			<tr>
+				<td>
+					<p>Phonetic:</p>
+				</td>
+				<td id="phoneticsArea">
+				</td>
+			</tr>
+			<tr>
+				
+			</tr>
+		</table>
+	</article>
+
+	<footer id="buttonArea">
+	</footer>
+</body>
+</html>
